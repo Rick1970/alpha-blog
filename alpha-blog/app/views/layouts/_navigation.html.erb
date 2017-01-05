@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-static-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       
-      <%= link_to "Alpha Blog", root_path, class:"navbar-brand", id:"logo" %>
+      <span><%= link_to ("<i class='fa fa-arrows'></i> " +'Mind Effects Matter').html_safe, root_path, class: "navbar-brand" %></span>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
